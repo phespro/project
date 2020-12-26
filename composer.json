@@ -1,5 +1,5 @@
 {
-    "name": "app/app",
+    "name": "phespro/project",
     "type": "project",
     "require": {
         "php": "^8.0",
