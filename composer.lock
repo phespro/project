@@ -483,12 +483,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phespro/phespro.git",
-                "reference": "afc5669376bce7238680c6eb7c03bebc68d95c01"
+                "reference": "419e226088e65bc8552d21a2122d8257ecdef249"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phespro/phespro/zipball/afc5669376bce7238680c6eb7c03bebc68d95c01",
-                "reference": "afc5669376bce7238680c6eb7c03bebc68d95c01",
+                "url": "https://api.github.com/repos/phespro/phespro/zipball/419e226088e65bc8552d21a2122d8257ecdef249",
+                "reference": "419e226088e65bc8552d21a2122d8257ecdef249",
                 "shasum": ""
             },
             "require": {
@@ -528,7 +528,7 @@
                 "issues": "https://github.com/phespro/phespro/issues",
                 "source": "https://github.com/phespro/phespro/tree/main"
             },
-            "time": "2021-08-22T20:08:10+00:00"
+            "time": "2021-08-23T20:08:14+00:00"
         },
         {
             "name": "psr/container",

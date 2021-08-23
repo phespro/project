@@ -17,7 +17,7 @@ class AppExtension extends AbstractExtension
     {
         $kernel->decorate(
             'template_dirs',
-            fn (ContainerInterface $c, callable $prev) => array_merge($prev(), [__DIR__ . '/template']),
+            fn (ContainerInterface $c, callable $prev) => array_merge($prev(), [__DIR__ . '/../template']),
         );
 
         $kernel->add(
