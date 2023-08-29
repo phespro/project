@@ -6,7 +6,7 @@ return _document(
         _body(
             _div('Hello World from Phespro'),
             _div('The best PHP framework'),
-            _div('On the hole world'),
+            _div('On the whole world'),
             _div(';-)'),
             _div('Happy Coding'),
             _div('And have fun'),
