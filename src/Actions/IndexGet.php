@@ -2,14 +2,16 @@
 
 namespace App\Actions;
 
-use Phespro\Phespro\Http\AbstractAction;
+use Phespro\Phespro\NoTee\NoTeeTrait;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class IndexGet extends AbstractAction
+class IndexGet
 {
+    use NoTeeTrait;
+
     function __invoke(ServerRequestInterface $request): ResponseInterface
     {
-        return $this->render('index.php');
+        return $this->renderResponse('index.php');
     }
 }

@@ -17,12 +17,12 @@ class AppExtension extends AbstractExtension
     {
         $kernel->decorate(
             'template_dirs',
-            fn (ContainerInterface $c, callable $prev) => array_merge($prev(), [__DIR__ . '/../template']),
+            fn (ContainerInterface $c, array $inner) => array_merge($inner, [__DIR__ . '/../template']),
         );
 
         $kernel->add(
             IndexGet::class,
-            fn (ContainerInterface $c) => new IndexGet($c->get(NoTeeInterface::class)),
+            fn (ContainerInterface $c) => new IndexGet,
         );
     }
 
