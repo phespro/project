@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "phespro/phespro": "^1.0"
+        "phespro/phespro": "^1.4"
     },
     "autoload": {
         "psr-4": {
